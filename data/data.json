@@ -1,0 +1,60 @@
+[
+    {
+        "type": "feed",
+        "items": [
+            {
+                "id": 1,
+                "title": "Goede service, lekker eten, toffe ambiance",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.",
+                "author": "alain heyndrickx"
+            },
+            {
+                "id": 2,
+                "title": "Goede service, lekker eten, вфывфыв toffe",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.",
+                "author": "alain qwertyuiop"
+            },
+            {
+                "id": 3,
+                "title": "Goede service, lekker eten, tggdfg ambiance",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.",
+                "author": "alain asdfghjkl"
+            }
+        ]
+    },
+    {
+        "type": "chart",
+        "items": [
+            {
+                "id": 1,
+                "title": "Woensdag 12/01",
+                "firstMenu": "Salade met Serrano",
+                "doubleMenu": "Steak Tartaar"
+            },
+            {
+                "id": 2,
+                "title": "Donderdag 13/01",
+                "firstMenu": "Toast Roquefort",
+                "doubleMenu": "Penne met Kip en Prei"
+            },
+            {
+                "id": 3,
+                "title": "Vrijdag 14/01",
+                "firstMenu": "Verrassing van de Chef",
+                "doubleMenu": "Penne met Kip en Prei"
+            },
+            {
+                "id": 4,
+                "title": "Vrijdag 15/01",
+                "firstMenu": "Verrassing van de Chef",
+                "doubleMenu": "Penne met Kip en Prei"
+            },
+            {
+                "id": 5,
+                "title": "Vrijdag 16/01",
+                "firstMenu": "Verrassing van de Chef",
+                "doubleMenu": "Penne met Kip en Prei"
+            }
+        ]
+    }
+]

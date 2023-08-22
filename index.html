@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeezotje</title>
+    <meta name="description" content="Test layout page">
+    <link rel="icon" href="./img/logo/logo.svg">
+    <link rel="stylesheet" href="./style/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.css" integrity="sha512-s6khMl5GDS1HbQ5/SwL1wzMayPwHXPjKoBN5kHUTDqKEPkkGyEZWKyH2lQ3YO2q3dxueG3rE0NHjRawMHd2b6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="header__box box">
+
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link" title="Home page">
+                        <img src="./img/logo/logo.svg" alt="logo">
+                    </a>
+                </div>
+
+                <nav class="header__nav">
+                    <ul class="header__list none">
+
+                        <li><a href="#" class="header__list-item">À la carte</a></li>
+                        <li><a href="#" class="header__list-item">Wijnkaart</a></li>
+                        <li><a href="#" class="header__list-item">Lunchmenu</a></li>
+                        <li><a href="#" class="header__list-item">Contact</a></li>
+    
+                    </ul>
+                </nav>
+
+                <div class="header__contact">
+
+                    <a href="tel:+32 9 282 57 25" class="header__contact-link" title="Telephone">
+                        <div class="header__contact-icon"><img src="./img/icons/tel.svg" alt="telephone"></div>
+                        <div class="header__contact-value">+32 9 282 57 25</div>
+                    </a>
+
+                </div>
+
+                <div class="header__burger">
+                    <div class="header__burger-box">
+                        <div class="header__burger-line"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="banner" id="banner">
+
+            <div class="banner__box box">
+
+                <div class="banner__content">
+
+                    <div class="banner__subtitle">
+                        <h2>OPEN EVERYDAY &nbsp;6AM - 9PM</h2>
+                    </div>
+
+                    <div class="banner__title">
+                        <h1>A bad day with lunch is better than a good day without it.</h1>
+                    </div>
+
+                    <div class="banner__fun">
+
+                        <div class="banner__fun-item">
+
+                            <button class="banner__fun-btn btn" id="btn-form">Reserve a table</button>
+
+                        </div>
+
+                        <div class="banner__fun-item">
+
+                            <ul class="banner__list">
+
+                                <li><a href="#" class="banner__list-item" title="Facebook">Fb</a></li>
+                                <li><a href="#" class="banner__list-item" title="Instagram">Ig</a></li>
+                                <li><a href="#" class="banner__list-item" title="Twitter">Tw</a></li>
+                                <li><a href="#" class="banner__list-item" title="YouTube">Yt</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="chart" id="chart">
+
+            <div class="chart__box box">
+
+                <div class="chart__content">
+
+                    <div class="chart__left">
+                        <ul class="chart__list">
+
+                        </ul>
+                    </div>
+
+                    <div class="chart__right">
+
+                        <div class="chart__right-box">
+
+                            <div class="chart__img-left">
+                                <img src="./img/sections/chart/Rectangle_77.png" alt="img-chart" loading="lazy">
+                            </div>
+
+                            <div class="chart__img-right">
+                                <img src="./img/sections/chart/Rectangle_80.png" alt="img-chart" loading="lazy">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="feed" id="feed">
+
+            <div class="feed__box box">
+
+                <div class="feed__content">
+
+                    <div class="feed__icon">
+
+                        <img src="./img/sections/feed/feed.svg" alt="feed-icon">
+                        
+                    </div>
+
+                    <div class="feed__swiper swiper">
+
+                        <div class="feed__swiper-wrapper swiper-wrapper">
+
+                        </div>
+
+                    </div>
+
+                    <div class="feed__nav feed__next"></div>
+                    <div class="feed__nav feed__prev"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div class="modal hide">
+
+        <div class="modal__box">
+
+            <div class="modal__content">
+
+                <form action="./form.php" onsubmit="return false;" method="post" class="modal__form" id="form" name="form">
+
+                    <div class="modal__form-item">
+                        <input name="firstname" id="firstname" type="text" placeholder="Иван" required>
+                    </div>
+
+                    <div class="modal__form-item">
+                        <input name="lastname" id="lastname" type="text" placeholder="Иванов" required>
+                    </div>
+
+                    <div class="modal__form-item">
+                        <input name="tel" id="tel" type="tel" placeholder="+7(000)000-00-00" required data-phone-pattern>
+                    </div>
+
+                    <div class="modal__form-result hide">
+                    </div>
+
+                    <div class="modal__form-block">
+                        <button type="submit" class="modal__form-btn">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="modal__close">
+                <div class="modal__close-line"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js" integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
